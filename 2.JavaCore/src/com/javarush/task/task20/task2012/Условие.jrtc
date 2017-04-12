@@ -1,0 +1,8 @@
+taskKey="com.javarush.task.task20.task2012"
+
+OutputToConsole
+
+Класс OutputToConsole должен сериализовываться с помощью интерфейса Externalizable.
+Найди и исправь ошибку.
+
+

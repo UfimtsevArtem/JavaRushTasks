@@ -1,0 +1,9 @@
+taskKey="com.javarush.task.task20.task2003"
+
+Знакомство с properties
+
+В методе fillInPropertiesMap считайте имя файла с консоли и заполни карту properties данными из файла.
+Про .properties почитать тут - http://ru.wikipedia.org/wiki/.properties
+Реализуй логику записи в файл и чтения из файла для карты properties.
+
+

@@ -1,0 +1,7 @@
+taskKey="com.javarush.task.task20.task2011"
+
+Externalizable для апартаментов
+
+Реализуй интерфейс Externalizable в классе Apartment.
+
+
