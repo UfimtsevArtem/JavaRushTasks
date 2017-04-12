@@ -1,0 +1,8 @@
+taskKey="com.javarush.task.task20.task2021"
+
+Запрет сериализации
+
+Запрети сериализацию класса SubSolution используя NotSerializableException.
+Сигнатуры классов менять нельзя.
+
+

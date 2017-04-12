@@ -1,0 +1,9 @@
+taskKey="com.javarush.task.task20.task2013"
+
+Externalizable Person
+
+Класс Person должен сериализовываться с помощью интерфейса Externalizable.
+Исправь ошибку сериализации.
+Сигнатуры методов менять нельзя.
+
+

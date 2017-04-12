@@ -1,0 +1,15 @@
+taskKey="com.javarush.task.task22.task2201"
+
+Строки нитей или строковые нити? Вот в чем вопрос
+
+1. Метод getPartOfString должен возвращать подстроку между первой и последней табуляцией.
+2. На некорректные данные getPartOfString должен бросить исключение:
+а) TooShortStringFirstThreadException, если имя трэда FIRST_THREAD_NAME.
+б) TooShortStringSecondThreadException, если имя трэда SECOND_THREAD_NAME.
+в) RuntimeException в других случаях.
+3. Реализуйте логику трех protected методов в ThisUncaughtExceptionHandler используя вызовы соответствующих методов согласно следующим шаблонам:
+a) 1# : TooShortStringFirstThreadException : java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+б) java.lang.StringIndexOutOfBoundsException: String index out of range: -1 : TooShortStringSecondThreadException : 2#
+в) RuntimeException : java.lang.StringIndexOutOfBoundsException: String index out of range: -1 : 3#
+
+

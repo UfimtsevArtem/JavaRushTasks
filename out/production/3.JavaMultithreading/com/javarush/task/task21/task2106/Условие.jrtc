@@ -1,0 +1,7 @@
+taskKey="com.javarush.task.task21.task2106"
+
+Ошибка в equals/hashCode
+
+Исправьте ошибки реализаций методов equals и hashCode для класса Solution.
+
+
