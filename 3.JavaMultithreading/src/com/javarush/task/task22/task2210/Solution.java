@@ -9,13 +9,11 @@ public class Solution {
     public static void main(String[] args) {
     }
     public static String [] getTokens(String query, String delimiter){
-        StringTokenizer tokenizer = new StringTokenizer(query, delimiter);
-        String[] array;
-        StringBuilder builder = new StringBuilder();
-        while(tokenizer.hasMoreTokens()){
-            builder.append(tokenizer.nextToken() + " ");
+        StringTokenizer st = new StringTokenizer(query, delimiter);
+        String[] res = new String[st.countTokens()];
+        for (int i = 0; i < res.length && st.hasMoreTokens(); i++) {
+            res[i] = st.nextToken();
         }
-        array = builder.toString().split(" ");
-        return array;
+        return res;
     }
 }
